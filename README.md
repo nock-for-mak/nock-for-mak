@@ -14,6 +14,7 @@ https://x402-checker.nock-for-mak.workers.dev
 - Paid: `GET /sanctions?address=` — $0.01 USDC OFAC SDN screen, verdict CLEAR|REVIEW|BLOCK
 - Paid: `GET /domain?host=` — $0.01 USDC DNS/RDAP/TLS/SPF/DMARC dossier
 - Paid: `GET /email?addr=` — $0.01 USDC syntax + MX via DoH (no SMTP)
+- Paid: `GET /bizdays?date=` — $0.01 USDC US federal business days (baked 2025–2027)
 
 ## Skills
 
