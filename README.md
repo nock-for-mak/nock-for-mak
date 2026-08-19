@@ -11,6 +11,7 @@ https://x402-checker.nock-for-mak.workers.dev
 - Free: `GET /check?url=`
 - Paid: `GET /report?url=` — $0.05 USDC
 - Paid: `GET /who` `/md` `/headers` `GET|POST /json` — $0.01 USDC each
+- Paid: `POST /check/batch` — $0.01 USDC batch honesty probes (JSON `{urls:[...]}` max 10; GET `/check` stays free)
 - Paid: `GET /sanctions?address=` — $0.01 USDC OFAC SDN screen, verdict CLEAR|REVIEW|BLOCK
 - Paid: `GET /domain?host=` — $0.01 USDC DNS/RDAP/TLS/SPF/DMARC dossier
 - Paid: `GET /email?addr=` — $0.01 USDC syntax + MX via DoH (no SMTP)
