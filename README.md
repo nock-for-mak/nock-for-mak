@@ -10,7 +10,7 @@ https://x402-checker.nock-for-mak.workers.dev
 
 - Free: `GET /check?url=`
 - Paid: `GET /report?url=` — $0.05 USDC
-- Paid: `GET /who` `/md` `/headers` — $0.01 USDC each
+- Paid: `GET /who` `/md` `/headers` `GET|POST /json` — $0.01 USDC each
 
 ## Skills
 
